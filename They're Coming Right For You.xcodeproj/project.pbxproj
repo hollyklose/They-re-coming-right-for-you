@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA996BEE1C5D35AB00E996EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA996BED1C5D35AB00E996EB /* AppDelegate.swift */; };
+		DA996BF01C5D35AB00E996EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA996BEF1C5D35AB00E996EB /* ViewController.swift */; };
+		DA996BF31C5D35AB00E996EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA996BF11C5D35AB00E996EB /* Main.storyboard */; };
+		DA996BF51C5D35AB00E996EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA996BF41C5D35AB00E996EB /* Assets.xcassets */; };
+		DA996BF81C5D35AB00E996EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA996BF61C5D35AB00E996EB /* LaunchScreen.storyboard */; };
+		DA996C031C5D35AB00E996EB /* They_re_Coming_Right_For_YouTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA996C021C5D35AB00E996EB /* They_re_Coming_Right_For_YouTests.swift */; };
+		DA996C0E1C5D35AB00E996EB /* They_re_Coming_Right_For_YouUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA996C0D1C5D35AB00E996EB /* They_re_Coming_Right_For_YouUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA996BFF1C5D35AB00E996EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA996BE21C5D35AB00E996EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA996BE91C5D35AB00E996EB;
+			remoteInfo = "They're Coming Right For You";
+		};
+		DA996C0A1C5D35AB00E996EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA996BE21C5D35AB00E996EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA996BE91C5D35AB00E996EB;
+			remoteInfo = "They're Coming Right For You";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA996BEA1C5D35AB00E996EB /* They're Coming Right For You.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "They're Coming Right For You.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA996BED1C5D35AB00E996EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA996BEF1C5D35AB00E996EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA996BF21C5D35AB00E996EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA996BF41C5D35AB00E996EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA996BF71C5D35AB00E996EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA996BF91C5D35AB00E996EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA996BFE1C5D35AB00E996EB /* They're Coming Right For YouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "They're Coming Right For YouTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA996C021C5D35AB00E996EB /* They_re_Coming_Right_For_YouTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = They_re_Coming_Right_For_YouTests.swift; sourceTree = "<group>"; };
+		DA996C041C5D35AB00E996EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA996C091C5D35AB00E996EB /* They're Coming Right For YouUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "They're Coming Right For YouUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA996C0D1C5D35AB00E996EB /* They_re_Coming_Right_For_YouUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = They_re_Coming_Right_For_YouUITests.swift; sourceTree = "<group>"; };
+		DA996C0F1C5D35AB00E996EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA996BE71C5D35AB00E996EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA996BFB1C5D35AB00E996EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA996C061C5D35AB00E996EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA996BE11C5D35AB00E996EB = {
+			isa = PBXGroup;
+			children = (
+				DA996BEC1C5D35AB00E996EB /* They're Coming Right For You */,
+				DA996C011C5D35AB00E996EB /* They're Coming Right For YouTests */,
+				DA996C0C1C5D35AB00E996EB /* They're Coming Right For YouUITests */,
+				DA996BEB1C5D35AB00E996EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA996BEB1C5D35AB00E996EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA996BEA1C5D35AB00E996EB /* They're Coming Right For You.app */,
+				DA996BFE1C5D35AB00E996EB /* They're Coming Right For YouTests.xctest */,
+				DA996C091C5D35AB00E996EB /* They're Coming Right For YouUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA996BEC1C5D35AB00E996EB /* They're Coming Right For You */ = {
+			isa = PBXGroup;
+			children = (
+				DA996BED1C5D35AB00E996EB /* AppDelegate.swift */,
+				DA996BEF1C5D35AB00E996EB /* ViewController.swift */,
+				DA996BF11C5D35AB00E996EB /* Main.storyboard */,
+				DA996BF41C5D35AB00E996EB /* Assets.xcassets */,
+				DA996BF61C5D35AB00E996EB /* LaunchScreen.storyboard */,
+				DA996BF91C5D35AB00E996EB /* Info.plist */,
+			);
+			path = "They're Coming Right For You";
+			sourceTree = "<group>";
+		};
+		DA996C011C5D35AB00E996EB /* They're Coming Right For YouTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA996C021C5D35AB00E996EB /* They_re_Coming_Right_For_YouTests.swift */,
+				DA996C041C5D35AB00E996EB /* Info.plist */,
+			);
+			path = "They're Coming Right For YouTests";
+			sourceTree = "<group>";
+		};
+		DA996C0C1C5D35AB00E996EB /* They're Coming Right For YouUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA996C0D1C5D35AB00E996EB /* They_re_Coming_Right_For_YouUITests.swift */,
+				DA996C0F1C5D35AB00E996EB /* Info.plist */,
+			);
+			path = "They're Coming Right For YouUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA996BE91C5D35AB00E996EB /* They're Coming Right For You */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA996C121C5D35AB00E996EB /* Build configuration list for PBXNativeTarget "They're Coming Right For You" */;
+			buildPhases = (
+				DA996BE61C5D35AB00E996EB /* Sources */,
+				DA996BE71C5D35AB00E996EB /* Frameworks */,
+				DA996BE81C5D35AB00E996EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "They're Coming Right For You";
+			productName = "They're Coming Right For You";
+			productReference = DA996BEA1C5D35AB00E996EB /* They're Coming Right For You.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA996BFD1C5D35AB00E996EB /* They're Coming Right For YouTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA996C151C5D35AB00E996EB /* Build configuration list for PBXNativeTarget "They're Coming Right For YouTests" */;
+			buildPhases = (
+				DA996BFA1C5D35AB00E996EB /* Sources */,
+				DA996BFB1C5D35AB00E996EB /* Frameworks */,
+				DA996BFC1C5D35AB00E996EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA996C001C5D35AB00E996EB /* PBXTargetDependency */,
+			);
+			name = "They're Coming Right For YouTests";
+			productName = "They're Coming Right For YouTests";
+			productReference = DA996BFE1C5D35AB00E996EB /* They're Coming Right For YouTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA996C081C5D35AB00E996EB /* They're Coming Right For YouUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA996C181C5D35AB00E996EB /* Build configuration list for PBXNativeTarget "They're Coming Right For YouUITests" */;
+			buildPhases = (
+				DA996C051C5D35AB00E996EB /* Sources */,
+				DA996C061C5D35AB00E996EB /* Frameworks */,
+				DA996C071C5D35AB00E996EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA996C0B1C5D35AB00E996EB /* PBXTargetDependency */,
+			);
+			name = "They're Coming Right For YouUITests";
+			productName = "They're Coming Right For YouUITests";
+			productReference = DA996C091C5D35AB00E996EB /* They're Coming Right For YouUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA996BE21C5D35AB00E996EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Holly Klose";
+				TargetAttributes = {
+					DA996BE91C5D35AB00E996EB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					DA996BFD1C5D35AB00E996EB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DA996BE91C5D35AB00E996EB;
+					};
+					DA996C081C5D35AB00E996EB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DA996BE91C5D35AB00E996EB;
+					};
+				};
+			};
+			buildConfigurationList = DA996BE51C5D35AB00E996EB /* Build configuration list for PBXProject "They're Coming Right For You" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA996BE11C5D35AB00E996EB;
+			productRefGroup = DA996BEB1C5D35AB00E996EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA996BE91C5D35AB00E996EB /* They're Coming Right For You */,
+				DA996BFD1C5D35AB00E996EB /* They're Coming Right For YouTests */,
+				DA996C081C5D35AB00E996EB /* They're Coming Right For YouUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA996BE81C5D35AB00E996EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA996BF81C5D35AB00E996EB /* LaunchScreen.storyboard in Resources */,
+				DA996BF51C5D35AB00E996EB /* Assets.xcassets in Resources */,
+				DA996BF31C5D35AB00E996EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA996BFC1C5D35AB00E996EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA996C071C5D35AB00E996EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA996BE61C5D35AB00E996EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA996BF01C5D35AB00E996EB /* ViewController.swift in Sources */,
+				DA996BEE1C5D35AB00E996EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA996BFA1C5D35AB00E996EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA996C031C5D35AB00E996EB /* They_re_Coming_Right_For_YouTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA996C051C5D35AB00E996EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA996C0E1C5D35AB00E996EB /* They_re_Coming_Right_For_YouUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA996C001C5D35AB00E996EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA996BE91C5D35AB00E996EB /* They're Coming Right For You */;
+			targetProxy = DA996BFF1C5D35AB00E996EB /* PBXContainerItemProxy */;
+		};
+		DA996C0B1C5D35AB00E996EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA996BE91C5D35AB00E996EB /* They're Coming Right For You */;
+			targetProxy = DA996C0A1C5D35AB00E996EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA996BF11C5D35AB00E996EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA996BF21C5D35AB00E996EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA996BF61C5D35AB00E996EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA996BF71C5D35AB00E996EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA996C101C5D35AB00E996EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA996C111C5D35AB00E996EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA996C131C5D35AB00E996EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "They're Coming Right For You/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hollyanderic.They-re-Coming-Right-For-You";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA996C141C5D35AB00E996EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "They're Coming Right For You/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hollyanderic.They-re-Coming-Right-For-You";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA996C161C5D35AB00E996EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "They're Coming Right For YouTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hollyanderic.They-re-Coming-Right-For-YouTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/They're Coming Right For You.app/They're Coming Right For You";
+			};
+			name = Debug;
+		};
+		DA996C171C5D35AB00E996EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "They're Coming Right For YouTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hollyanderic.They-re-Coming-Right-For-YouTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/They're Coming Right For You.app/They're Coming Right For You";
+			};
+			name = Release;
+		};
+		DA996C191C5D35AB00E996EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "They're Coming Right For YouUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hollyanderic.They-re-Coming-Right-For-YouUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "They're Coming Right For You";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DA996C1A1C5D35AB00E996EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "They're Coming Right For YouUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hollyanderic.They-re-Coming-Right-For-YouUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "They're Coming Right For You";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA996BE51C5D35AB00E996EB /* Build configuration list for PBXProject "They're Coming Right For You" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA996C101C5D35AB00E996EB /* Debug */,
+				DA996C111C5D35AB00E996EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA996C121C5D35AB00E996EB /* Build configuration list for PBXNativeTarget "They're Coming Right For You" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA996C131C5D35AB00E996EB /* Debug */,
+				DA996C141C5D35AB00E996EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA996C151C5D35AB00E996EB /* Build configuration list for PBXNativeTarget "They're Coming Right For YouTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA996C161C5D35AB00E996EB /* Debug */,
+				DA996C171C5D35AB00E996EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA996C181C5D35AB00E996EB /* Build configuration list for PBXNativeTarget "They're Coming Right For YouUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA996C191C5D35AB00E996EB /* Debug */,
+				DA996C1A1C5D35AB00E996EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA996BE21C5D35AB00E996EB /* Project object */;
+}
